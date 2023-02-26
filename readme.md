@@ -1,7 +1,8 @@
 
-# GITSPLAY
+# pixelfuck
 
-> Write programs for my **git**hub di**splay** ❤️.
+> ⚠️ This is in early stages of development ⚠️
+> Write programs for a pixel display ❤️.
 
 ## Specifications
 
@@ -37,7 +38,7 @@ features allowed as a language extension:
 
 |**C**| **Meaning**                                        |
 |:---:|:---------------------------------------------------|
-|`\`` | Duplicate stack top.                               |
+| \`  | Duplicate stack top.                               |
 | `°` | Push stack top colour into current cell.           |
 | `,` | Push 0 onto the stack.                             |
 | `.` | Sets the current cell to the specified value.      |
@@ -88,5 +89,3 @@ The delay operator `@` can be used to set the delay between
 frames. The delay is a hexadecimal value from `0` to `F` and
 it will be multiplied by `200ms`. For example, `F:@` will set
 the delay to `3.2s`.
-
-> I only chose the best submissions to go on my github display.
