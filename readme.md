@@ -1,7 +1,7 @@
 
 # pixelfuck
 
-> ⚠️ This is in early stages of development ⚠️
+> ⚠️ This is in early stages of development ⚠️\
 > Write programs for a pixel display ❤️.
 
 ## Specifications
@@ -38,7 +38,7 @@ features allowed as a language extension:
 
 |**C**| **Meaning**                                        |
 |:---:|:---------------------------------------------------|
-| \`  | Duplicate stack top.                               |
+|<code>`</code>| Duplicate stack top.                      |
 | `°` | Push stack top colour into current cell.           |
 | `,` | Push 0 onto the stack.                             |
 | `.` | Sets the current cell to the specified value.      |
@@ -53,7 +53,7 @@ features allowed as a language extension:
 | `/` | Pops twice and pushes the division result.         |
 | `%` | Pops twice and pushes the modulus result.          |
 | `&` | Pops twice and pushes the and result.              |
-| `|` | Pops twice and pushes the or result.               |
+| `\|`| Pops twice and pushes the or result.               |
 | `!` | Flip the current stack top value.                  |
 | `@` | Set delay for the next frames to stack top.        |
 | `$` | Pops and discards the top stack value.             |
